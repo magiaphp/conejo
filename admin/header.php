@@ -43,10 +43,10 @@
                     <div class="col-lg-3">
                          <br>
                     <?php 
-                      if (file_exists("../temas/pato/$p/sidebar_izq.php")) {
-                      include "../temas/pato/$p/sidebar_izq.php";
+                      if (file_exists("../temas/conejo/admin/$p/sidebar_izq.php")) {
+                              include "../temas/conejo/admin/$p/sidebar_izq.php";
                       } else {
-                      include "../temas/pato/home/sidebar_izq.php";
+                              include "../temas/conejo/admin/home/sidebar_izq.php";
                       }                                          
                     ?>    
                     </div>
